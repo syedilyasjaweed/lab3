@@ -19,10 +19,10 @@
         <div id="fields">
             <form id="myForm">
                 <label for="billtotal">Bill Total:</label>
-                <input type="text" id="billtotal" name="billtotal">
+                <input type="text" id="billtotal" name="billtotal" oninput="change()">
 
                 <label for="tip">Tip:</label>
-                <input type="range" class="value" id="tip" name="tip" value="0" min="0" max="100">
+                <input type="range" class="value" id="tip" name="tip" value="0" min="0" max="100" oninput="change()">
 
                 <label for="tip_per">Tip Percentage:</label>
                 <input type="text" id="tip_per" name="tip_per" disabled>
@@ -43,3 +43,7 @@
         
 </body>
 </html>
+   
+        
+    
+        
