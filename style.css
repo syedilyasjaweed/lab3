@@ -1,0 +1,74 @@
+
+body {
+    background-color: #29402f;
+}
+
+/* header css */
+header div {
+    border: none;
+    background-color:#722620;
+    margin: 25px 0;
+    padding: 5px 15px;
+}
+header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    color: white;
+}
+h1{
+    font-size: 2.9em;
+    background-color: #722620;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    font-size: 1.5em;
+    background-color: #722620;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* 2nd box css */
+.cal_box {
+    background-color: #722620;
+    border: none;
+    padding: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+    font-family: monospace;
+    font-size: 1.35em;
+    font-weight: bold;
+    color: white;
+}
+label{
+    display: inline-block;
+    text-align: left;
+}
+ #billtotal{
+    color: black;
+}
+input[type=text]{
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(65, 65, 65);
+    width: 95%;
+    box-sizing: border-box;
+    color: white;
+}
+input[type=range]{
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(65, 65, 65);
+    width: 95%;
+    box-sizing: border-box;
+}
+#subtotal, #tax_rate{
+    background-color: floralwhite;
+}
+#sales_tax, #total {
+    background-color: rgb(228, 220, 201);
+}
